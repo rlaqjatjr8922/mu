@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeTree - Premium Dark</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon"><i data-lucide="audio-lines"></i></div>
+                <span class="logo-text">VIBETREE</span>
+            </div>
+            <div class="search-container">
+                <i data-lucide="search" class="search-icon"></i>
+                <input type="text" placeholder="Search masterpiece sounds..." class="search-input">
+            </div>
+            <div class="user-actions">
+                <button class="btn-signin">Sign In</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <section class="hero">
+            <h1 class="hero-title">
+                S O N I C<br>P U L S E
+            </h1>
+            <p class="hero-subtitle">Immerse yourself in a curated dimension of boundless frequencies.</p>
+        </section>
+
+        <section class="content-layout">
+            <aside class="sidebar">
+                <nav class="sidebar-nav">
+                    <a href="#" class="nav-item active">
+                        <span>Discover</span>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <span>Global Top 50</span>
+                        <i data-lucide="arrow-up-right" class="icon-micro"></i>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <span>New Releases</span>
+                    </a>
+                </nav>
+                <div class="sidebar-desc">
+                    <div style="display: flex; gap: 0.5rem; color: #fff; margin-bottom: 0.5rem; font-weight: 500;">
+                        <i data-lucide="radio" style="width:18px;height:18px;color:#06b6d4"></i> Live Server
+                    </div>
+                    Curated directly from our elite global soundboard. Connect to the vibe.
+                </div>
+            </aside>
+
+            <div class="grid-container" id="gridContainer">
+                <!-- Cards populated by JS -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
